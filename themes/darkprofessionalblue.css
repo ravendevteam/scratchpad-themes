@@ -1,0 +1,76 @@
+/*
+    Scratchpad Dark Professional Blue
+    by @TotallyNotK0
+
+    HOW TO USE:
+    - Put this file in your user folder (example: C:\Users\John)
+    - Rename file to "spstyle.css"
+    - Restart Scratchpad
+*/
+
+/* USAGE LICENSE:
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                       Version 2, December 2004
+ 
+    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
+
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+    0. You just DO WHAT THE FUCK YOU WANT TO.
+*/
+
+QTextEdit {
+    font-family: 'Cascadia Code', 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #050505;
+    color: #f1f1f1;
+    border: 1px solid #0c0c0c;
+    padding: 2px;
+} QMainWindow {
+    background-color: #050505;
+} QStatusBar {
+    background-color: #0c0c0c;
+    color: #f1f1f1;
+} QMenuBar {
+    background-color: #122761;
+    color: #f1f1f1;
+} QMenuBar::item {
+    background: transparent;
+    padding: 5px 10px;
+} QMenuBar::item:selected {
+    background: #1e3880;
+    color: #ffffff;
+} QMenu {
+    background-color: #050505;
+    color: #f1f1f1;
+    border: 1px solid #0c0c0c;
+} QMenu::item {
+    padding: 5px 15px;
+    background-color: transparent;
+} QMenu::item:selected {
+    background-color: #0c0c0c;
+    color: #ffffff;
+} QDialog {
+    background-color: #050505;
+    color: #f1f1f1;
+    border: 1px solid #0c0c0c;
+} QPushButton {
+    background-color: #0c0c0c;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    padding: 5px 10px;
+    font-weight: bold;
+} QPushButton:hover {
+    background-color: #f1f1f1;
+    color: #000000;
+} QPushButton:pressed {
+    background-color: #0c0c0c;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}

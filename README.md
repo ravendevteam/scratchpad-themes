@@ -12,6 +12,10 @@ Repository of free custom themes for [Scratchpad](https://github.com/ravendevtea
 - Rename file to "spstyle.css"
 - Restart Scratchpad
 
+## Contribute
+
+If you would like to add your own theme to this repository, create a pull request with your CSS file included in **/themes**. Make sure that your file is named appropriately and that credits and license information is included.
+
 # Authors & Contributors
 
 - [Raven Development Team](https://ravendevteam.org/)

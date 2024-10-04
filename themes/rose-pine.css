@@ -1,0 +1,68 @@
+/*
+    Rosé Pine
+    by @LordImmaculate
+
+    HOW TO USE:
+    - Have Jetbrains Mono installed
+    - Put this file in your user folder (example: C:\Users\John)
+    - Rename file to "spstyle.css"
+    - Restart Scratchpad
+*/
+
+/* USAGE LICENSE:
+               MIT License
+
+Copyright (c) 2024 LordImmaculate
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+* {
+    font-family: 'Jetbrains Mono', 'Courier New', Courier, monospace;
+} QTextEdit {
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #191724;
+    color: #9ccfd8;
+    padding: 2px;
+    border: 0px
+} QMainWindow {
+    background-color: #191724;
+} QStatusBar {
+    background-color: #191724;
+    color: #ebbcba;
+} QMenuBar {
+    background-color: #26233a;
+    color: #ebbcba;
+} QMenuBar::item {
+    background: transparent;
+    padding: 5px 10px;
+} QMenuBar::item:selected {
+    background: #ebbcba;
+    color: #26233a;
+} QMenu {
+    background-color: #191724;
+    color: #ebbcba;
+} QMenu::item {
+    padding: 5px 15px;
+    background-color: transparent;
+} QMenu::item:selected {
+    background-color: #ebbcba;
+    color: #26233a;
+}

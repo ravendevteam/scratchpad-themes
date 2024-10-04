@@ -8,7 +8,7 @@ Repository of free custom themes for [Scratchpad](https://github.com/ravendevtea
 
 ## Apply Custom Theme
 
-- Put this file in your user folder (example: C:\Users\John)
+- Put this file in your user folder (example: `C:\Users\John` on Windows and `~` on macOS and Linux)
 - Rename file to "spstyle.css"
 - Restart Scratchpad
 

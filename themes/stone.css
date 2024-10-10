@@ -1,0 +1,135 @@
+/*
+    Scratchpad Stone
+    by @TotallyNotK0
+
+    HOW TO USE:
+    - Put this file in your user folder (example: C:\Users\John)
+    - Rename file to "spstyle.css"
+    - Restart Scratchpad
+*/
+
+/* USAGE LICENSE:
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                       Version 2, December 2004
+ 
+    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
+
+               DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+    0. You just DO WHAT THE FUCK YOU WANT TO.
+*/
+
+QMainWindow {
+    background-color: #000000;
+    color: #e6e6e6;
+    border: none;
+}
+
+QMenuBar {
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    border-bottom: 1px solid #333;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    color: #e6e6e6;
+}
+
+QMenuBar::item:selected {
+    background-color: #333;
+}
+
+QMenu {
+    background-color: #1a1a1a;
+    border: 0px solid #333;
+    color: #f1f1f1;
+}
+
+QMenu::item:selected {
+    background-color: #333;
+}
+
+QTextEdit {
+    background-color: #080808;
+    color: #e6e6e6;
+    border: 0px solid #1a1a1a;
+    padding: 2px;
+    font-family: 'Cascadia Code', Consolas, Monospace;
+    font-size: 14px;
+    selection-background-color: #080808;
+    selection-color: #ffffff;
+    border-radius: 0;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background-color: #0d0d0d;
+    width: 12px;
+    margin: 0;
+    border: none;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: #333;
+    border-radius: 0;
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background-color: #444;
+}
+
+QScrollBar::sub-page, QScrollBar::add-page {
+    background-color: #080808;
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    background-color: #1a1a1a;
+    border: none;
+    height: 15px;
+}
+
+QScrollBar::sub-line:hover, QScrollBar::add-line:hover {
+    background-color: #444;
+}
+
+QStatusBar {
+    background-color: #111111;
+    color: #e6e6e6;
+    border-top: 1px solid #333333;
+}
+
+QToolTip {
+    background-color: #222222;
+    color: #ffffff;
+    border: 0px solid #444444;
+}
+
+QMenuBar QMenu::item:selected {
+    background-color: #444;
+    color: #ffffff;
+}
+
+QLineEdit {
+    background-color: #080808;
+    color: #e6e6e6;
+    border: 0px solid #333;
+    padding: 2px;
+    border-radius: 0;
+    selection-background-color: #080808;
+    selection-color: #ffffff;
+}
+
+QTextEdit::selection, QPlainTextEdit::selection {
+    background-color: #080808;
+    color: #ffffff;
+}
+
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus {
+    border: 0px solid #666;
+    background-color: #080808;
+}
